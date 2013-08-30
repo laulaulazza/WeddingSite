@@ -1,0 +1,89 @@
+
+body{
+	padding: 0;
+	background-image: url('LauDazNiagara.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	margin: 0;
+}
+
+body, p, a {
+	font-family: 'Roboto Slab', 'Roboto', sans-serif;
+	font-size: 11pt;
+	color: white;
+
+}
+
+header,article,footer {
+	padding: 	15px;
+}
+
+header {
+	display: inline-block;
+	vertical-align: top;	
+	width: 74%;
+}
+
+article {
+	background: black;
+	margin: 5px 0;
+}
+
+footer {
+	background: black;
+}
+
+hgroup,nav {
+	display: inline-block;
+}
+
+h1,h2 {
+	font-family: 'Marcellus SC', 'Cinzel', serif;
+	background-color: rgba(0,0,0,0.4);
+}
+
+hgroup{
+		
+}
+
+nav {
+	display: inline-block;
+	font-family: 'Roboto Slab', 'Roboto', sans-serif;
+	height: 100%;
+	width: 20%;
+	padding-top: 15px;
+	background-color: rgba(0,0,0,0.8)
+}
+
+nav a {
+	color: white;
+	display: block;
+	margin: 3px 0;
+	padding: 15px;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.4);
+}
+
+nav a:hover {
+	background: rgba(0,0,0,0.9);
+	margin-left: 10px;
+	font-size: 13pt;
+
+}
+
+h1{
+font-size: 28pt;
+margin: 0 0 5px 0;
+padding: 5 10;
+}
+
+h2{
+	font-size: 18pt;
+	display: inline-block;
+	padding: 5 10;
+}
+
+p{
+	margin: 0;
+}

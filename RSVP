@@ -5,10 +5,9 @@
         Laura and Darren are Getting Married!
     </title>
 	<link href='http://fonts.googleapis.com/css?family=Marcellus+SC|Roboto:400,400italic,700|Cinzel:400,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="homepage.css" />
+    <link rel="stylesheet" type="text/css" href="RSVPStyle.css" />
 </head>
 <body>
-
 
 <nav>
     <a href="">Home</a> 
@@ -20,9 +19,15 @@
 </nav>
 <header>
     <hgroup>
-        <h1>Laura &amp; Darren's Super-fly-awesome Wedding</h1>
-        <h2>4-1-14 2pm</h2>
+        <h1>Will You Be Joining Us?</h1>
+        <h2>Fill in the gaps to let us know!</h2>
     </hgroup>
 </header>
+<article>
+<form>
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname">
+</form>
+</article>
 </body>
 </html>

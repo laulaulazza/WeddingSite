@@ -7,6 +7,7 @@ body{
 body, p, a {
 	font-family: 'Roboto Slab', 'Roboto', sans-serif;
 	font-size: 11pt;
+	color: white;
 }
 
 header,article,footer {
@@ -14,16 +15,17 @@ header,article,footer {
 }
 
 header {
-	background: white;
+	background: black;
+
 }
 
 article {
-	background: white;
+	background: black;
 	margin: 5px 0;
 }
 
 footer {
-	background: white;
+	background: black;
 }
 
 hgroup,nav {
@@ -36,6 +38,7 @@ h1,h2 {
 
 hgroup{
 	width: 70%;
+	background: ProfilePic.jpg;
 }
 
 nav {

@@ -1,7 +1,6 @@
 
 body{
 	padding: 0;
-	background-image: url('LauDazNiagara.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -11,7 +10,7 @@ body{
 body, p, a {
 	font-family: 'Roboto Slab', 'Roboto', sans-serif;
 	font-size: 11pt;
-	color: white
+	color: white;
 
 }
 
@@ -28,6 +27,17 @@ header {
 article {
 	background: black;
 	margin: 5px 0;
+	color:white;
+	width: 72%;
+	display: inline-block;
+}
+
+form {
+	color:white;
+}
+
+input[type=radio] {
+	display: inline;
 }
 
 footer {
@@ -85,5 +95,5 @@ h2{
 }
 
 p{
-	margin: 0;
+	margin-bottom: 12px;
 }

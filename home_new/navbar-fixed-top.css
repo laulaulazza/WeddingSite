@@ -1,0 +1,22 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  font-size: 30px;
+  background: black;
+}
+
+article {
+	
+}
+
+a, h1, p { 
+	font-family: 'uppereastsideregular', Arial, sans-serif; 
+}
+
+.navbar-brand {
+	font-size: 27px;
+}
+
+.jumbotron {
+	font-size: 30px;
+}

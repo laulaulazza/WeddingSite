@@ -92,16 +92,14 @@
       <div class="jumbotron">
         <h1>Will You Be Joining Us?</h1>
         <p>Fill in the gaps to let us know!</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="rsvp.html">RSVP</a>
-        </p>
-      </div>
+    </div>
 
     </div> <!-- /container -->
-<article>
-    <form name="input" action="html_form_action.asp" method="get">
+<div class="container">
+<article class="jumbotron">
+    <form name="input" action="reply.php" method="post">
         <p>
-            <input type="text" id="exclamation" value="Exclamation" onclick="clearOrApplyPlaceholder(this, 'Exclamation');" onblur="clearOrApplyPlaceholder(this, 'Exclamation');"">
+            <input type="text" id="exclamation" value="Exclamation" onclick="clearOrApplyPlaceholder(this, 'Exclamation');" onblur="clearOrApplyPlaceholder(this, 'Exclamation');">
         </p>
 
         <p>
@@ -151,9 +149,12 @@
         <p>
             <textarea name="HelpfulTip" id="HelpfulTip" cols="50" rows="2">Write your Helpful Tip here</textarea>
         </p>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="btn btn-lg btn-success">
     </form>
 </article>
+</div>
+   
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

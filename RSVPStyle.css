@@ -97,3 +97,19 @@ h2{
 p{
 	margin-bottom: 12px;
 }
+
+/* make the radio buttons look and act like pills by hiding them and using the labels instead */
+label {
+	background: gray;
+	cursor: pointer;
+	padding: 0 3px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:checked+label {
+	background: green;
+	cursor: default;
+}

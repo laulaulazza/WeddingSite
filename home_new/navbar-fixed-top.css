@@ -5,11 +5,33 @@ body {
   background: black;
 }
 
-article {
-	
+article.timeline div {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-a, h1, p { 
+article.timeline {
+
+}
+
+article.timeline h2,article.timeline p {
+	display: inline-block;
+	vertical-align: top;
+}
+
+article.timeline h2 {
+	width:21%;
+	line-height: 1;
+	font-size: 42pt;
+	margin: 0;
+}
+
+article.timeline p {
+	width:77%;
+	line-height: 1;
+}
+
+a, h1, h2, p { 
 	font-family: 'uppereastsideregular', Arial, sans-serif; 
 }
 
@@ -36,10 +58,11 @@ a, h1, p {
 	background: none;
 	color: white;
 	padding-top: 0;
+	border:thin solid white;
 }
 
 .ice {
-	color: black;
+	color: white;
 	background-color: #BECBD6;
 	border-color: #BECBD6;
 }
@@ -53,3 +76,4 @@ a, h1, p {
 	width: 100%;
 	font-size: 30px;
 }
+

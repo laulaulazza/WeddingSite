@@ -20,3 +20,36 @@ a, h1, p {
 .jumbotron {
 	font-size: 30px;
 }
+
+.niagara {
+	background-image: url('images/LauDazNiagara.jpg');
+	background-size: 100%;
+	background-position-y: 57%;
+	height: 333px;
+	background-repeat: no-repeat;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+
+.hidey {
+	background: none;
+	color: white;
+	padding-top: 0;
+}
+
+.ice {
+	color: black;
+	background-color: #BECBD6;
+	border-color: #BECBD6;
+}
+
+.ice:hover {
+	background-color: #B40A11;
+	border-color: #B40A11;
+}
+
+.widebutton {
+	width: 100%;
+	font-size: 30px;
+}

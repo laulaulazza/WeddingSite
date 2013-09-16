@@ -99,47 +99,47 @@
 <article class="jumbotron">
     <form name="input" action="reply.php" method="post">
         <p>
-            <input type="text" id="exclamation" value="Exclamation" onclick="clearOrApplyPlaceholder(this, 'Exclamation');" onblur="clearOrApplyPlaceholder(this, 'Exclamation');">
+            <input type="text" name="exclamation" value="Exclamation" onclick="clearOrApplyPlaceholder(this, 'Exclamation');" onblur="clearOrApplyPlaceholder(this, 'Exclamation');">
         </p>
 
         <p>
-            <input type="text" name="YourNames" value="Your Names">
+            <input type="text" name="name" value="Your Names">
             
-            <input type="radio" name="IsAre" value="Is" id="is">
+            <input type="radio" name="is_are" value="is" id="is">
             <label for="is">is</label>
-            <input type="radio" name="IsAre" value="Are" id="are" checked="checked">
+            <input type="radio" name="is_are" value="are" id="are" checked="checked">
             <label for="are">are</label>
 
-            <input type="text" name="Adjective" value="adjective">
+            <input type="text" name="adjective" value="adjective">
             to hear about your upcoming nuptials!
         </p>
        
         <p>
-            <input type="radio" name="IAmWeAre" value="I am" id="am">
+            <input type="radio" name="i_am_we_are" value="I am" id="am">
             <label for="am">I am</label>
-            <input type="radio" name="IAmWeAre" value="We Are" id="weare" checked="checked">
+            <input type="radio" name="i_am_we_are" value="We are" id="weare" checked="checked">
             <label for="weare">We are</label>
             
-            <input type="text" id="adjective2" value="adjective">
+            <input type="text" name="adjective2" value="adjective">
             <span>to</span>
 
-            <input type="radio" name="AttendMiss" value="Attend" id="attend" checked="checked">
+            <input type="radio" name="attend_miss" value="attend" id="attend" checked="checked">
             <label for="attend">attend</label>
-            <input type="radio" name="AttendMiss" value="Miss" id="miss">
+            <input type="radio" name="attend_miss" value="miss" id="miss">
             <label for="miss">miss</label>
 
             <span>the celebration.</span>
 
         <p>
             <span>A few words of advice as you enter this</span>
-            <input type="text" id="adjective3" value="adjective">
+            <input type="text" name="adjective3" value="adjective">
             <span>union:</span>
         <p>
             Under no circumstances:
         </p>
 
         <p>
-            <textarea name="WordsWisdom" id="WordsWisdom" cols="50" rows="2">Write your words of wisdom here</textarea>
+            <textarea name="words_wisdom" cols="50" rows="2">Write your words of wisdom here</textarea>
         </p>
 
         <p>
@@ -147,7 +147,7 @@
         </p>
 
         <p>
-            <textarea name="HelpfulTip" id="HelpfulTip" cols="50" rows="2">Write your Helpful Tip here</textarea>
+            <textarea name="helpful_tip" cols="50" rows="2">Write your Helpful Tip here</textarea>
         </p>
         <input type="submit" value="Submit" class="btn btn-lg btn-success">
     </form>
